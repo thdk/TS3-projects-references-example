@@ -1,0 +1,31 @@
+{
+  "name": "ts3-projects-references-example",
+  "version": "1.0.0",
+  "description": "A small example for 'Project References'. A typescript feature introduced in version 3.0.",
+  "main": " ",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^3.3.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "buildAll": "tsc -b project-a project-b",
+    "build-a": "tsc -b project-a",
+    "build-b": "tsc -b project-b"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thdk/TS3-projects-references-example.git"
+  },
+  "keywords": [
+    "typescript",
+    "\"project",
+    "references\""
+  ],
+  "author": "Thomas Dekiere",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thdk/TS3-projects-references-example/issues"
+  },
+  "homepage": "https://github.com/thdk/TS3-projects-references-example#readme"
+}
