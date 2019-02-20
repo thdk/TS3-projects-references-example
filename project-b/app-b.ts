@@ -1,3 +1,5 @@
-import { logProjectName } from '../common';
+import common = require('../common/index');
 
-logProjectName("project-a");
+const utils = common.utils;
+
+utils.logProjectName("project-b");

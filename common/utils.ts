@@ -1,3 +1,7 @@
-export const logProjectName = (name: string) => {
+const logProjectName = (name: string) => {
     console.log(name);
+};
+
+export = {
+    logProjectName
 };

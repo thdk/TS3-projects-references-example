@@ -2,8 +2,11 @@
 
 A small example for 'Project References'. A typescript feature introduced in version 3.0.
 
-The project structure exists of three projects.
+The repo has two branches: 
+- es
+- commonjs
 
+The project structure exists of three projects.
  - common
  - project-a
  - project-b
@@ -18,3 +21,11 @@ To build both **project-a** and **project-b** run
 
 The lib project will be automatically build as it is listed as a reference.
 
+Finally run both projects:
+`npm run start` 
+
+You console should display:
+```
+project-a
+project-b
+```
