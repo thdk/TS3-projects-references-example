@@ -17,7 +17,7 @@ Each having their own tsconfig file.
 
 To build both **project-a** and **project-b** run
 
-`tsc -b project-a project-b`
+`tsc -b project-a project-b` or `npm run buildAll`
 
 The lib project will be automatically build as it is listed as a reference.
 
