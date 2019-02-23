@@ -1,3 +1,5 @@
-import { logProjectName } from '../common';
+import { logProjectName } from '../common-with-dist/dist/utils';
 
-logProjectName("project-a");
+// it does work when importing from '../common-with-dist/dist/utils';
+// import { logProjectName } from '../common-with-dist/dist';
+logProjectName("project-b");

@@ -2,6 +2,7 @@
     "files.exclude": {
         "**/*.d.ts": true,
         "**/*.d.ts.map": true,
-        "**/*.js": true
+        "**/*.js": false,
+        "**/.rpt2_cache/": true
     }
 }

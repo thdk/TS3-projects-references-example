@@ -5,13 +5,16 @@
   "main": " ",
   "dependencies": {},
   "devDependencies": {
-    "typescript": "^3.3.3"
+    "rollup": "^1.2.2",
+    "rollup-plugin-typescript2": "^0.19.2",
+    "typescript": "^3.3.3333"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "buildAll": "tsc -b project-a project-b",
     "build-a": "tsc -b project-a",
-    "build-b": "tsc -b project-b"
+    "build-b": "tsc -b project-b",
+    "build-common": "tsc -b common common-with-dist"
   },
   "repository": {
     "type": "git",

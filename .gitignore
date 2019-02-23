@@ -1,4 +1,8 @@
-node_modules/ 
-*.d.ts 
-*.d.ts.map 
-*.js 
+node_modules/
+*.d.ts
+*.d.ts.map
+*.js
+
+.rpt2_cache/
+
+dist/
